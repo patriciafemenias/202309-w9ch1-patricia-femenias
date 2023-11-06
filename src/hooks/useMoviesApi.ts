@@ -1,5 +1,5 @@
 import { useCallback } from "react";
-import { MovieStructure } from "../features/movies/types";
+import { MovieStructure } from "../store/movies/types";
 
 const useMoviesApi = () => {
   const apiUrl = "https://horrorvision-api.onrender.com";
