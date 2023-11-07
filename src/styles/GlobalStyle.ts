@@ -6,13 +6,13 @@ const GlobalStyle = createGlobalStyle`
   }
 
   html {
-    font-family: ${({ theme }) => theme.typography.main};
+    font-family: ${({ theme }) => theme.typography.secondaryFont};
   }
 
   body {
     margin: 0;
     font-size: 16px;
-    background-color: ${({ theme }) => theme.colors.background};
+    background-color: ${({ theme }) => theme.colors.accent};
   }
 
   h1, h2 {
