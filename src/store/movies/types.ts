@@ -4,3 +4,7 @@ export interface MovieStructure {
   director: string;
   year: number;
 }
+
+export interface MoviesStateStructure {
+  movies: MovieStructure[];
+}
