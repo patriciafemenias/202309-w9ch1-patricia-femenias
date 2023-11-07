@@ -4,7 +4,7 @@ import { useAppDispatch } from "../store/hooks";
 import { loadMoviesActionCreator } from "../store/movies/moviesSlice";
 import React from "react";
 import MoviesList from "../components/MoviesList/MoviesList";
-import HomePageStyled from "./HomepageStyled";
+import HomePageStyled from "./HomePageStyled";
 
 const HomePage = (): React.ReactElement => {
   const dispatch = useAppDispatch();
