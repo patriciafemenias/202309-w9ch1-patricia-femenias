@@ -5,11 +5,18 @@ interface MovieCardProps {
 }
 
 const MovieCard = ({
-  movie: { title, director, year },
+  movie: { title, director, year, picture },
 }: MovieCardProps): React.ReactElement => {
   return (
     <article className="movie-card">
       <div className="movie-card__data">
+        <img
+          className="movie-card__image"
+          src={picture}
+          alt={picture}
+          width="250"
+          height="400"
+        />
         <h2 className="movie-card__title">{title}</h2>
         <dl className="movie-card__info-container">
           <dt className="movie-card__title-info">Director</dt>

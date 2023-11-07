@@ -3,6 +3,7 @@ export interface MovieStructure {
   title: string;
   director: string;
   year: number;
+  picture: string;
 }
 
 export interface MoviesStateStructure {
