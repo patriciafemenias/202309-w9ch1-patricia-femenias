@@ -1,6 +1,6 @@
 import { Routes, Route, Navigate } from "react-router-dom";
 import AppStyled from "./AppStyled";
-import HomePage from "../../pages/Homepage";
+import HomePage from "../../pages/HomePage";
 
 const App = (): React.ReactElement => {
   return (
