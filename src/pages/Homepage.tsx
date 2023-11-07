@@ -17,7 +17,7 @@ const HomePage = (): React.ReactElement => {
 
   return (
     <>
-      <h1>Horrorvision</h1>
+      <h1 className="main-title">Horrorvision</h1>
       <main>
         <MoviesList />
       </main>
