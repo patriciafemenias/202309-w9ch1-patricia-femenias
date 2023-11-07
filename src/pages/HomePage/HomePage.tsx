@@ -19,15 +19,14 @@ const HomePage = (): React.ReactElement => {
 
   return (
     <HomePageStyled>
-      <img
-        className="logo-image"
-        src="/images/logo.webp"
-        alt="logo"
-        height="311"
-        width="500"
-      />
-
       <main>
+        <img
+          className="logo-image"
+          src="/images/logo.webp"
+          alt="logo"
+          height="311"
+          width="500"
+        />
         <MoviesList />
       </main>
     </HomePageStyled>

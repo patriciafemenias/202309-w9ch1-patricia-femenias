@@ -7,6 +7,12 @@ const HomePageStyled = styled.section`
 
   .logo-image {
     padding-bottom: 20px;
+    width: 100%;
+    height: 100%;
+
+    @media (max-width: 360px) {
+      width: 220px;
+    }
   }
 `;
 
