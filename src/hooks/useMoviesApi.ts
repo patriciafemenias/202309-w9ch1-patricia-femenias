@@ -2,7 +2,7 @@ import { useCallback } from "react";
 import { MovieStructure } from "../store/movies/types";
 
 const useMoviesApi = () => {
-  const apiUrl = "https://horrorvision-api.onrender.com";
+  const apiUrl = import.meta.env.VITE_API_URL;
 
   const getMovies = useCallback(async () => {
     const response = await fetch(`${apiUrl}/movies?_limit=8`);
