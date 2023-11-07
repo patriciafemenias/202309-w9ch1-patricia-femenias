@@ -1,5 +1,5 @@
 import { useAppSelector } from "../../store/hooks";
-import MovieCard from "../App/MovieCard/MovieCard";
+import MovieCard from "../MovieCard/MovieCard";
 
 const MoviesList = (): React.ReactElement => {
   const movies = useAppSelector((state) => state.moviesState.movies);

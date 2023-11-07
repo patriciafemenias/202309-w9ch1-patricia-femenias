@@ -1,4 +1,4 @@
-import { MovieStructure } from "../../../store/movies/types";
+import { MovieStructure } from "../../store/movies/types";
 
 interface MovieCardProps {
   movie: MovieStructure;
