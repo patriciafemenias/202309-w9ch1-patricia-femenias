@@ -2,6 +2,7 @@ import { useEffect } from "react";
 import useMoviesApi from "../hooks/useMoviesApi";
 import { useAppDispatch } from "../store/hooks";
 import { loadMoviesActionCreator } from "../store/movies/moviesSlice";
+import MoviesList from "../components/MoviesList/MoviesList";
 
 const HomePage = (): React.ReactElement => {
   const dispatch = useAppDispatch();
@@ -17,7 +18,9 @@ const HomePage = (): React.ReactElement => {
   return (
     <>
       <h1>Horrorvision</h1>
-      <main></main>
+      <main>
+        <MoviesList />
+      </main>
     </>
   );
 };
