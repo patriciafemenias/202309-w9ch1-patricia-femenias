@@ -19,7 +19,14 @@ const HomePage = (): React.ReactElement => {
 
   return (
     <HomePageStyled>
-      <h1 className="main-title">Horrorvision</h1>
+      <img
+        className="logo-image"
+        src="/images/logo.webp"
+        alt="logo"
+        height="311"
+        width="500"
+      />
+
       <main>
         <MoviesList />
       </main>
