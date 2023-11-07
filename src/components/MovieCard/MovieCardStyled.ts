@@ -13,7 +13,7 @@ const MovieCardStyled = styled.article`
   padding: 20px;
   padding-top: 40px;
   color: ${({ theme }) => theme.colors.main};
-  box-shadow: 0 0 25px #0ccc0c;
+  box-shadow: 0 0 25px #70e12f;
 
   .movie-card {
     &__data {
@@ -24,7 +24,7 @@ const MovieCardStyled = styled.article`
     }
 
     &__title {
-      color: ${({ theme }) => theme.colors.background};
+      color: ${({ theme }) => theme.colors.light};
       text-transform: uppercase;
       margin: 20px;
     }

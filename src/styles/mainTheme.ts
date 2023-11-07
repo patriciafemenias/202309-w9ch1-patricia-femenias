@@ -4,7 +4,7 @@ const mainTheme: DefaultTheme = {
   colors: {
     main: "#fff",
     accent: "#000",
-    light: "#2px 2px 4px #0ccc0c",
+    light: "#70E12F",
   },
   typography: {
     mainFont: "Creepster, sans-serif",
