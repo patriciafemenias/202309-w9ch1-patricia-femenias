@@ -5,6 +5,7 @@ const AppStyled = styled.main`
   flex-direction: column;
   justify-content: center;
   padding: 20px;
+  align-items: center;
 `;
 
 export default AppStyled;

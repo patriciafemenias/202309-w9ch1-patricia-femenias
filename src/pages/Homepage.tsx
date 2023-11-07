@@ -2,7 +2,9 @@ import { useEffect } from "react";
 import useMoviesApi from "../hooks/useMoviesApi";
 import { useAppDispatch } from "../store/hooks";
 import { loadMoviesActionCreator } from "../store/movies/moviesSlice";
+import React from "react";
 import MoviesList from "../components/MoviesList/MoviesList";
+import HomePageStyled from "./HomepageStyled";
 
 const HomePage = (): React.ReactElement => {
   const dispatch = useAppDispatch();
@@ -16,12 +18,12 @@ const HomePage = (): React.ReactElement => {
   }, [dispatch, getMovies]);
 
   return (
-    <>
+    <HomePageStyled>
       <h1 className="main-title">Horrorvision</h1>
       <main>
         <MoviesList />
       </main>
-    </>
+    </HomePageStyled>
   );
 };
 
