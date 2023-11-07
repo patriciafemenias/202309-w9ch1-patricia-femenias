@@ -9,11 +9,15 @@ const MovieCard = ({
 }: MovieCardProps): React.ReactElement => {
   return (
     <article className="movie-card">
-      <h2>{title}</h2>
-      <h3>Director</h3>
-      <span>{director}</span>
-      <h3>Year</h3>
-      <span>{year}</span>
+      <div className="movie-card__data">
+        <h2 className="movie-card__title">{title}</h2>
+        <dl className="movie-card__info-container">
+          <dt className="movie-card__title-info">Director</dt>
+          <dd className="movie-card__info">{director}</dd>
+          <dt className="movie-card__title-info">Year</dt>
+          <dd className="movie-card__info">{year}</dd>
+        </dl>
+      </div>
     </article>
   );
 };
