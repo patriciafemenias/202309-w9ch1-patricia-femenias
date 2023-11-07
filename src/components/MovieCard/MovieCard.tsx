@@ -1,4 +1,5 @@
 import { MovieStructure } from "../../store/movies/types";
+import MovieCardStyled from "./MovieCardStyled";
 
 interface MovieCardProps {
   movie: MovieStructure;
@@ -8,7 +9,7 @@ const MovieCard = ({
   movie: { title, director, year, picture },
 }: MovieCardProps): React.ReactElement => {
   return (
-    <article className="movie-card">
+    <MovieCardStyled className="movie-card">
       <div className="movie-card__data">
         <img
           className="movie-card__image"
@@ -25,7 +26,7 @@ const MovieCard = ({
           <dd className="movie-card__info">{year}</dd>
         </dl>
       </div>
-    </article>
+    </MovieCardStyled>
   );
 };
 
