@@ -4,6 +4,7 @@ export interface MovieStructure {
   director: string;
   year: number;
   picture: string;
+  isWatched: boolean;
 }
 
 export interface MoviesStateStructure {
