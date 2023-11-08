@@ -6,6 +6,7 @@ const movieMock: MovieStructure = {
   director: "Peter Jackson",
   year: 1992,
   picture: "https://i.ibb.co/r66TwSq/braindead.webp",
+  isWatched: false,
 };
 
 export default movieMock;

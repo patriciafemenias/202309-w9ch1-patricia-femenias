@@ -9,6 +9,7 @@ const handlers = [
         director: "Stuart Gordon",
         year: 1986,
         picture: "https://i.ibb.co/zhqsXjJ/re-sonator.webp",
+        isWatched: false,
       },
       {
         id: 8,
@@ -16,6 +17,7 @@ const handlers = [
         director: "Joel Schumacher",
         year: 1987,
         picture: "https://i.ibb.co/RvSQ4WS/lost-boys.webp",
+        isWatched: false,
       },
     ]);
   }),
