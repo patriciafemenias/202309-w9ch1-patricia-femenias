@@ -46,10 +46,25 @@ const MovieCardStyled = styled.article`
       width: 100%;
       height: 100%;
     }
-  }
 
-  @media (max-width: 360px) {
-    width: 220px;
+    &__checkbox {
+      display: flex;
+      margin: 20px;
+    }
+
+    &__checkbox {
+      display: flex;
+      margin: 20px;
+    }
+
+    &__feedback {
+      color: #70e12f;
+      margin-bottom: 10px;
+    }
+
+    @media (max-width: 360px) {
+      width: 220px;
+    }
   }
 `;
 
