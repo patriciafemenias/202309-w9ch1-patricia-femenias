@@ -16,9 +16,24 @@ const moviesSlice = createSlice({
       ...currentState,
       movies: action.payload,
     }),
+
+    toggleWatchMovie: (
+      currentState: MoviesStateStructure,
+      action: PayloadAction<number>,
+    ): MoviesStateStructure => ({
+      ...currentState,
+      movies: currentState.movies.map((movie) => ({
+        ...movie,
+        isWatched:
+          movie.id === action.payload ? !movie.isWatched : movie.isWatched,
+      })),
+    }),
   },
 });
 
-export const { loadMovies: loadMoviesActionCreator } = moviesSlice.actions;
+export const {
+  loadMovies: loadMoviesActionCreator,
+  toggleWatchMovie: toggleWatchMovieActionCreator,
+} = moviesSlice.actions;
 
 export const moviesReducer = moviesSlice.reducer;
