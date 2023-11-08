@@ -6,6 +6,7 @@ const mainTheme: DefaultTheme = {
     accent: "#000",
     light: "#70E12F",
   },
+
   typography: {
     mainFont: "Creepster, sans-serif",
     secondaryFont: "Arial, Helvetica, sans-serif",
