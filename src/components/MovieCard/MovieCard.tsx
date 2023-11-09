@@ -45,7 +45,7 @@ const MovieCard = ({
           />
         </label>
         <span className="movie-card__feedback">
-          {isWatched ? "🤢watched🤢" : ""}
+          {isWatched ? "🤢watched🤢" : " "}
         </span>
       </div>
     </MovieCardStyled>
