@@ -14,6 +14,16 @@ const HomePageStyled = styled.section`
       width: 220px;
     }
   }
+
+  .main-title {
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    color: ${({ theme }) => theme.colors.light};
+  }
 `;
 
 export default HomePageStyled;
