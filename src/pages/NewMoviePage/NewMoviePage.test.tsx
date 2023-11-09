@@ -9,7 +9,7 @@ import { Provider } from "react-redux";
 describe("Given a Create page", () => {
   describe("When it renders", () => {
     test("Then it should show a heading with the text 'Add a new Serie B horror movie!'", () => {
-      const headingText = "Characters list";
+      const headingText = "Add a new Serie B horror movie!";
 
       render(
         <Provider store={store}>
