@@ -50,16 +50,12 @@ const MovieCardStyled = styled.article`
     &__checkbox {
       display: flex;
       margin: 20px;
-    }
-
-    &__checkbox {
-      display: flex;
-      margin: 20px;
+      accent-color: ${({ theme }) => theme.colors.light};
     }
 
     &__feedback {
       color: #70e12f;
-      margin-bottom: 10px;
+      height: 40px;
     }
 
     @media (max-width: 360px) {
