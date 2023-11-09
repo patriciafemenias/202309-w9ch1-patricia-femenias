@@ -5,6 +5,7 @@ import { loadMoviesActionCreator } from "../../store/movies/moviesSlice";
 import React from "react";
 import MoviesList from "../../components/MoviesList/MoviesList";
 import HomePageStyled from "./HomePageStyled";
+import Navigation from "../../components/Navigation/Navigation";
 
 const HomePage = (): React.ReactElement => {
   const dispatch = useAppDispatch();
@@ -27,6 +28,7 @@ const HomePage = (): React.ReactElement => {
           height="311"
           width="500"
         />
+        <Navigation />
         <MoviesList />
       </main>
     </HomePageStyled>

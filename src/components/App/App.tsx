@@ -8,6 +8,7 @@ const App = (): React.ReactElement => {
       <Routes>
         <Route path="/" element={<Navigate to="/movies" />} />
         <Route path="/movies" element={<HomePage />} />
+        <Route path="/" element={<Navigate to="/create" />} />
       </Routes>
     </AppStyled>
   );
