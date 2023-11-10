@@ -35,6 +35,15 @@ const GlobalStyle = createGlobalStyle`
     color: inherit;
   }
   
+  input {
+  font: inherit;
+}
+
+button {
+  border: none;
+  background-color: transparent;
+  font: inherit;
+}
 `;
 
 export default GlobalStyle;
