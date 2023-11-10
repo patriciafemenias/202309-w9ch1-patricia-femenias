@@ -1,3 +1,4 @@
+import MovieForm from "../../components/MovieForm/MovieForm";
 import Navigation from "../../components/Navigation/Navigation";
 import HomePageStyled from "../HomePage/HomePageStyled";
 
@@ -14,6 +15,7 @@ const NewMoviePage = (): React.ReactElement => {
         />
         <Navigation />
         <h2 className="main-title">Add a new Serie B horror movie!</h2>
+        <MovieForm />
       </main>
     </HomePageStyled>
   );
