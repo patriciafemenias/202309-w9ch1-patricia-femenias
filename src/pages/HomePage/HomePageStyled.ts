@@ -19,7 +19,7 @@ const HomePageStyled = styled.section`
     color: #fff;
     text-transform: uppercase;
     font-size: 20px;
-    margin: 20px;
+    margin: 40px;
     display: flex;
     justify-content: center;
     color: ${({ theme }) => theme.colors.light};
