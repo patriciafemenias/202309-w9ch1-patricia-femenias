@@ -3,7 +3,7 @@ import styled from "styled-components";
 const MovieCardStyled = styled.article`
   text-align: center;
   margin: 20px;
-  margin-top: 20px
+  margin-top: 20px;
   width: 330px;
   background-color: #000;
   border-radius: 15px;
@@ -15,7 +15,6 @@ const MovieCardStyled = styled.article`
   padding-top: 40px;
   color: ${({ theme }) => theme.colors.main};
   box-shadow: 0 0 25px #70e12f;
-
 
   .movie-card {
     &__data {
